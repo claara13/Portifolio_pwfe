@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap" rel="stylesheet">
+
+<style>
+    body {
+      background-image: url('gradient.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    </style>
+
+    <title>Horas extras</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div class="box">
+
+        <div class="header">
+            <h1>Calculadora de horas extras</h1>
+            <p style="text-align: right; margin-right: 5%;" id="data"></p>
+
+            <script>
+                function atualizarDataHora() {
+                    const dataHoraAtual = new Date();
+                    const dataHoraFormatada = dataHoraAtual.toLocaleString('pt-BR');
+                    const elementoDataHora = document.getElementById('data');
+                    elementoDataHora.textContent = dataHoraFormatada;
+                }
+                atualizarDataHora();
+                setInterval(atualizarDataHora, 1000);
+
+                function mudaFoto(item){
+                    document.getElementById("produto").src=item
+        }
+            </script>
+        </div>
+        <div class="main">
+            <div class="form">
+                <a href="ex1/ex1.html" onmousemove="mudaFoto('ex1/hora.png')"><button onclick="limpar()">Cálculo de horas extras</button></a>
+                <br>
+                <a href="ex2/ex2.html" onmousemove="mudaFoto('ex2/salario.png')"><button onclick="limpar()">Aumento de salário</button></a>
+                <br>
+                <a href="ex3/ex3.html" onmousemove="mudaFoto('ex3/transporte.png')"><button onclick="limpar()">Tansporte colaborativo</button></a>
+                <br>
+            </div>
+            <div class="principal">
+                <img id="inicio" src="inicio.png" width="40%">
+        </div>
+</body>
+
+</html>

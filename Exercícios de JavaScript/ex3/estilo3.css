@@ -1,0 +1,68 @@
+/*Document*/
+
+body {
+    background-color:#ce52bebb;
+    color: white;
+    font: 16pt Arial;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.box {
+    width: 80%;
+    height: 80%;
+    margin: 50px auto;
+    border: 2px black solid;
+    background-color: #9234c18f;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #141414;
+    text-align: center;
+}
+.header{
+    width: 70%;
+    margin: 1em auto;
+    display: flex;
+    justify-content: space-around;
+}
+.header img{
+    width: 20%;
+    height: auto;
+}
+.main{
+    display: flex;
+    width: 95%;
+}
+.form{
+    width: 60%;
+}
+.resultado{
+    width:40%;
+    margin: 1em auto;
+    padding: 1%;
+    color: #E963BE;
+    border: 2px black solid;
+    background-color: #ddd;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #000;
+}
+
+input {
+    height: 30px;
+    width: 80%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#res {
+    font-size: normal;
+    text-align: justify;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 10px 4px;
+    background-color:#E963BE;
+    color: white;
+}

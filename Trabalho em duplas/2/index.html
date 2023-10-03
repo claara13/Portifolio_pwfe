@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 1</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+    <body>
+        <div class="box">
+            <div class="header">
+                <img src="2.png" alt="">
+
+                <h1 style="color: #078AC8;">Elite Way School</h1>
+                
+            </div>
+            <div class="main">
+                <div class="form">
+                    <label for="salario">Insira a primeira nota :</label>
+                    <input type="number" name="n1" id="primeira">
+                    <br>
+                    <label for="quant_hr_normais">Insira a segunda nota:</label>
+                    <input type="number" name="n2" id="segunda">
+                    <br>
+                    <label for="quant_hr_normais">Insira a terceira nota:</label>
+                    <input type="number" name="n2" id="terceira">
+                    <br>
+                    <label for="quant_hr_fds">Insira a quarta nota:</label>
+                    <input type="number" name="n2" id="quarta">
+                    <br>
+                    <button onclick="media()">Calcular</button>
+                    <br>
+                </div>
+                <div class="resultado">
+                    <label for="res">Resultado:</label>
+                    <p id="res"> </p>
+                </div>
+            </div>
+            <p style="text-align: right; margin-right: 5%;" id="data"></p>
+        </div>
+        <script src="codigo.js"> </script>
+    </body>
+    
+    </html>

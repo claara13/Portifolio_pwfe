@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+      </style>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Tech Cadastro</title>
+</head>
+<body>
+    <section id="CADASTRO">
+        <form>
+            <div class="form_row">
+              <div class="form_col">
+                <label>Primeiro Nome</label><br>
+                <input type="text" name="name" size="40" required ><br>
+              </div>
+              <div class="form_col">
+                <label>Sobrenome</label><br>
+                <input type="text" name="sobrenome" size="20" required><br>
+              </div>
+            </div>
+    
+            <div class="form_row">
+              <div class="form_col">
+                <label>E-mail</label><br>
+                <input type="email" name="e-mail" size="40" placeholder="nome@gmail.com" required><br>
+              </div>
+              <div class="form_col">
+                <label>Celular</label><br>
+                <input type="tel" name="telefone" size="18" placeholder="(00) 00000-0000" required maxlength="14"><br>
+              </div>
+            </div>
+    
+            <div class="form_row">
+              <div class="form_col">
+                <label>Senha</label><br>
+                <input type="text" name="senha" size="20" placeholder="********" required><br>
+              </div>
+              <div class="form_col">
+                <label>Digite a senha novamente</label><br>
+                <input type="text" name="senha" size="20" placeholder="********" required><br>
+              </div>
+            </div>
+          </form>
+          <a href="index.html"><input type="submit" name="botao" value="CADASTRAR" class="botao"></a>
+    </section>
+</body>
+</html>

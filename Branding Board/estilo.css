@@ -1,0 +1,191 @@
+/* DOC CSS */
+
+/* Bordas de visualização */
+/* *{
+    border: 1px solid red;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Light', sans-serif;
+    font-weight: 400;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body{
+    font-family: 'Roboto Light', sans-serif;
+    font-weight: 400;
+}
+
+header{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: black 3px solid;
+}
+#menu ul{
+    list-style: none;
+}
+#menu ul li{
+    display: inline;
+}
+#menu ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 24px 50px 24px 50px;
+    font-weight: 900;
+    color: black;
+}
+#menu ul li a:hover{
+    color: azure;
+}
+
+main{
+	display: flex;
+	justify-content: center;
+    flex-direction: column;
+	padding: 80px 50px;
+    background-color: #f7f7f7;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 90%;
+    margin: auto;
+}
+/* TIPOGRAFIA */
+
+.linhatitulo{
+    position: relative;
+    top: -70px;
+    right: 500px;
+    width: 1000px;
+    border-color:black;
+}
+#tipografia{
+    height: 650px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tipografia #tipografiabox{
+    width: 45%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+}
+#tipografia #tipografiabox p {
+    width: 90%;
+    height: 410px;
+    font-size: 28px;
+}
+
+#tipografia #tipografiabox h2{
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 90px;
+}
+
+#tipografia #tipografiabox2{
+    width: 50%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tipografia #tipografiabox img{
+    width: 90%;
+}
+
+/* PALETA */
+
+#paleta{
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#paleta article, #paleta figure{
+    width: 50%;
+    height: 470px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#paleta img{
+    width: 70%;
+}
+#paleta article h3{
+    font-size: 40px;
+    margin: 20px;
+}
+#paleta p{
+    font-size: 25px;
+    margin: 30px;
+    text-align: left;
+}
+
+#outras{
+    padding: 100px 0 150px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+  
+   
+#imagens2box{
+    padding-left: 20px;
+}
+#empresa{
+    height: 650px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:80px;
+    padding-bottom: 80px;
+}
+#empresa #empresabox{
+    height: 340px;
+    width: 680px;
+    padding-right: 15px;
+}
+#empresabox p{
+    font-size: 31px;
+}
+
+#rodape{
+    height: 250px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#rodape article{
+    height: 35px;
+}
+#rodape p{
+    font-size: 30px;
+}
+#rodape img{
+    height: 160px;
+    margin-top: 20px;
+    padding-bottom: 15px;
+}
+
